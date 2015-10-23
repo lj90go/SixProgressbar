@@ -15,6 +15,7 @@
 		38A038811BD8842A005CEDA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A0387F1BD8842A005CEDA1 /* LaunchScreen.storyboard */; };
 		38A0388C1BD8842A005CEDA1 /* SixProgressbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0388B1BD8842A005CEDA1 /* SixProgressbarTests.m */; };
 		38A038971BD8842A005CEDA1 /* SixProgressbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A038961BD8842A005CEDA1 /* SixProgressbarUITests.m */; };
+		38A038A61BD8847A005CEDA1 /* SixPB.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A038A51BD8847A005CEDA1 /* SixPB.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		38A038921BD8842A005CEDA1 /* SixProgressbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixProgressbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A038961BD8842A005CEDA1 /* SixProgressbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixProgressbarUITests.m; sourceTree = "<group>"; };
 		38A038981BD8842A005CEDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A038A41BD8847A005CEDA1 /* SixPB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixPB.h; sourceTree = "<group>"; };
+		38A038A51BD8847A005CEDA1 /* SixPB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixPB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				38A0387F1BD8842A005CEDA1 /* LaunchScreen.storyboard */,
 				38A038821BD8842A005CEDA1 /* Info.plist */,
 				38A038711BD8842A005CEDA1 /* Supporting Files */,
+				38A038A41BD8847A005CEDA1 /* SixPB.h */,
+				38A038A51BD8847A005CEDA1 /* SixPB.m */,
 			);
 			path = SixProgressbar;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A038A61BD8847A005CEDA1 /* SixPB.m in Sources */,
 				38A038791BD8842A005CEDA1 /* ViewController.m in Sources */,
 				38A038761BD8842A005CEDA1 /* AppDelegate.m in Sources */,
 				38A038731BD8842A005CEDA1 /* main.m in Sources */,
